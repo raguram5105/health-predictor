@@ -207,7 +207,7 @@ export default function Prediction() {
                 setPredictionResult(data);
             } catch (err) {
                 console.error("Error fetching prediction:", err);
-                setError("Unable to load predictions. Make sure the backend server is running on port 5000.");
+                setError("Unable to load predictions. Make sure the backend server is reachable.");
             } finally {
                 setAnalyzing(false);
             }

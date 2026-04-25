@@ -2788,5 +2788,153 @@
       "Highest current estimate: Respiratory Distress or Hypoxemia. Review the listed factors and recent sensor readings."
     ],
     "createdAt": "2026-04-18T06:05:19.773Z"
+  },
+  {
+    "id": "1777108656356-jahit0ms",
+    "inputs": {
+      "height": 170,
+      "weight": 70,
+      "smoking": "no",
+      "alcohol": "no",
+      "activityLevel": "moderate"
+    },
+    "sensors": null,
+    "riskScore": 9,
+    "overallRisk": "Low Risk",
+    "primaryConcerns": [
+      {
+        "disease": "Cardiovascular Disease",
+        "probability": "12%",
+        "status": "safe",
+        "desc": "BMI, smoking, activity level, and heart-rate strain are combined into a cardiovascular risk estimate.",
+        "factors": [
+          "BMI",
+          "smoking",
+          "activity",
+          "heart rate"
+        ]
+      },
+      {
+        "disease": "Metabolic Syndrome",
+        "probability": "10%",
+        "status": "safe",
+        "desc": "Weight, inactivity, and alcohol intake can cluster with metabolic risk factors.",
+        "factors": [
+          "BMI",
+          "activity",
+          "alcohol"
+        ]
+      },
+      {
+        "disease": "Cardiac Arrhythmia",
+        "probability": "8%",
+        "status": "safe",
+        "desc": "Heart rate and ECG changes can indicate rhythm irregularities that need clinical review.",
+        "factors": [
+          "heart rate",
+          "ECG",
+          "SpO2"
+        ]
+      },
+      {
+        "disease": "Type 2 Diabetes",
+        "probability": "8%",
+        "status": "safe",
+        "desc": "Elevated BMI and low activity are commonly associated with insulin resistance.",
+        "factors": [
+          "BMI",
+          "activity"
+        ]
+      },
+      {
+        "disease": "COPD or Chronic Respiratory Risk",
+        "probability": "7%",
+        "status": "safe",
+        "desc": "Smoking history and oxygen saturation are used to estimate chronic respiratory risk.",
+        "factors": [
+          "smoking",
+          "SpO2"
+        ]
+      },
+      {
+        "disease": "Respiratory Distress or Hypoxemia",
+        "probability": "6%",
+        "status": "safe",
+        "desc": "Low oxygen saturation is associated with breathing difficulty and reduced oxygen delivery.",
+        "factors": [
+          "SpO2",
+          "heart rate",
+          "smoking"
+        ]
+      },
+      {
+        "disease": "Sleep Apnea Risk",
+        "probability": "6%",
+        "status": "safe",
+        "desc": "Higher BMI and oxygen dips can be associated with sleep-related breathing problems.",
+        "factors": [
+          "BMI",
+          "SpO2",
+          "heart rate"
+        ]
+      },
+      {
+        "disease": "Fever or Acute Infection",
+        "probability": "5%",
+        "status": "safe",
+        "desc": "Raised temperature, especially with fast heart rate or low oxygen, can suggest infection or inflammation.",
+        "factors": [
+          "temperature",
+          "heart rate",
+          "SpO2"
+        ]
+      },
+      {
+        "disease": "Anemia or Poor Oxygen Delivery",
+        "probability": "5%",
+        "status": "safe",
+        "desc": "Low oxygen readings with heart-rate changes can suggest reduced oxygen delivery.",
+        "factors": [
+          "SpO2",
+          "heart rate"
+        ]
+      },
+      {
+        "disease": "Liver Complications",
+        "probability": "5%",
+        "status": "safe",
+        "desc": "Alcohol intake and obesity can increase liver strain risk.",
+        "factors": [
+          "alcohol",
+          "BMI"
+        ]
+      },
+      {
+        "disease": "Heat Stress or Dehydration",
+        "probability": "4%",
+        "status": "safe",
+        "desc": "High temperature and fast heart rate can occur with heat stress or dehydration.",
+        "factors": [
+          "temperature",
+          "heart rate"
+        ]
+      },
+      {
+        "disease": "Hypothermia or Low Body Temperature",
+        "probability": "3%",
+        "status": "safe",
+        "desc": "Low body temperature can affect heart rhythm and circulation.",
+        "factors": [
+          "temperature",
+          "heart rate"
+        ]
+      }
+    ],
+    "recommendations": [
+      "Use these results as a screening estimate, not a medical diagnosis.",
+      "Repeat the measurement after sitting still for a few minutes to improve sensor reliability.",
+      "Highest current estimate: Cardiovascular Disease. Review the listed factors and recent sensor readings."
+    ],
+    "createdAt": "2026-04-25T09:17:36.356Z"
   }
 ]

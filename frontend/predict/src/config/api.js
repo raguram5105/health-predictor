@@ -3,7 +3,7 @@ const getApiBaseUrl = () => {
         return import.meta.env.VITE_API_BASE_URL;
     }
 
-    return `http://${window.location.hostname}:5000`;
+    return 'https://health-predictor-71lw.onrender.com';
 };
 
 export const API_BASE_URL = getApiBaseUrl();
